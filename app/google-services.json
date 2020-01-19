@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "242195038118",
+    "firebase_url": "https://ngon365-cd75a.firebaseio.com",
+    "project_id": "ngon365-cd75a",
+    "storage_bucket": "ngon365-cd75a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242195038118:android:106b3c0b18fe521f",
+        "android_client_info": {
+          "package_name": "com.vantinviet.foodies.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242195038118-7cutn33pf6vmt1qtvo7vekj2171rsn00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vantinviet.foodies.android",
+            "certificate_hash": "43117588e71e7a1f2a3063ab8be8763bfca2a8bd"
+          }
+        },
+        {
+          "client_id": "242195038118-95k667l3pcs9kbqpk7069ocfb69cn00m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQBQswd7WC6aWQHSDE_TEFyWsIwWhbvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242195038118-95k667l3pcs9kbqpk7069ocfb69cn00m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

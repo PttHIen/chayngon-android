@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/restaurent_main_layout"
+    android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/percentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/res_filter"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/res_filter" />
+
+            <TextView
+                android:id="@+id/title_city_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:text="Thanh xuân hà nội"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignEnd="@+id/title_city_tv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="-26dp"
+                android:layout_toLeftOf="@+id/order_place"
+                android:layout_toRightOf="@+id/title_city_tv"
+                android:src="@drawable/drop_down_arrow"
+                app:layout_marginRightPercent="10%"
+                app:layout_marginTopPercent="40%" />
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/searchlayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/percentLayout"
+            android:focusableInTouchMode="true">
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/floating_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:paddingStart="-10dp"
+                android:paddingLeft="-10dp"
+                android:queryBackground="@android:color/transparent"
+                android:textSize="12sp"
+                app:defaultQueryHint="Some Text Here"
+                app:iconifiedByDefault="false"
+                app:queryHint="Tìm kiếm nhà hàng"
+                app:searchIcon="@drawable/search_icon"
+                app:theme="@style/AppSearchView" />
+        </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/searchlayout">
+            <RelativeLayout
+                android:id="@+id/recycler_view_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/restaurant_recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader
+                        android:id="@+id/header"
+                        android:layout_alignParentTop="true"
+                        app:layout_heightPercent="30%"
+                        app:layout_widthPercent="100%">
+
+                        <include
+                            android:id="@+id/layout"
+                            layout="@layout/slider_home_page_list_restaurants"></include>
+                    </com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader>
+                </android.support.percent.PercentRelativeLayout>
+            </RelativeLayout>
+
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/transparent_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tint"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressDialog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_shape_dialog_white">
+
+        <com.gmail.samehadar.iosdialog.CamomileSpinner
+            android:id="@+id/restaurantProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:clockwise="true"
+            app:spinnerColor="@color/colorRed" />
+    </RelativeLayout>
+    <!--
+        <ProgressBar
+
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+        </ProgressBar>-->
+
+</FrameLayout>

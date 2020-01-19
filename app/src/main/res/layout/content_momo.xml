@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActivitiesAndFragments.Momo"
+    tools:showIn="@layout/activity_momo">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <RelativeLayout
+        android:id="@+id/div_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang Xử lý thanh toán với Momo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_donhang"
+        android:gravity="center"
+        android:layout_below="@id/div_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:textSize="17dp"
+            android:id="@+id/txt_donhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn hàng số: "/>
+        <TextView
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:id="@+id/txt_so_donhang"
+            android:layout_toRightOf="@id/txt_donhang"
+            />
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/div_thulai"
+            android:layout_below="@id/div_donhang"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhấn vào đây để thử lại"
+                android:background="@drawable/round_shape_btn_google"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                />
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/div_thulai"
+        android:gravity="center"
+        android:id="@+id/div_back_to_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay về trang chủ"
+            android:background="@drawable/round_shape_btn_google"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

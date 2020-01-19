@@ -1,0 +1,18 @@
+git rm --cached -r .idea
+git rm --cached -r app/src/main/java/com/vantinviet/foodies/android/Constants/Config.java
+http://demo.dinosoftlabs.com/foodies/doc/
+
+cách lấy mã để login google ở môi trường debug
+https://stackoverflow.com/questions/37273145/error-statusstatuscode-developer-error-resolution-null
+
+keytool -list -v -keystore /Users/macosx/StudioProjects/foodies.vantinviet.com-app-android/app/key_ngon365 -alias vantinviet-foodies
+
+keytool -exportcert -alias vantinviet-foodies -keystore /Users/macosx/StudioProjects/foodies.vantinviet.com-app-android/app/key_ngon365 | openssl sha1 -binary | openssl base64
+
+
+keytool -exportcert -alias androiddebugkey -keystore /Users/macosx/.android/debug.keystore  | openssl sha1 -binary | openssl base64
+
+lấy hashkey facebook
+keytool -exportcert -alias /Users/macosx/StudioProjects/foodies.vantinviet.com-app-android/app/key_ngon365 -keystore /Users/macosx/StudioProjects/foodies.vantinviet.com-app-android/app/key_ngon365 | openssl sha1 -binary | openssl base64
+
+keytool -exportcert -keystore /Users/macosx/StudioProjects/foodies.vantinviet.com-app-android/app/key_ngon365 -alias vantinviet-foodies

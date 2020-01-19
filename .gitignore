@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/release
+/app/src/main/java/com/vantinviet/foodies/android/Constants/Config.java

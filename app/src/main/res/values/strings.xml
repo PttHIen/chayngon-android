@@ -1,0 +1,139 @@
+﻿<resources>
+    <string name="app_name">Ngon365</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="sign_up">ĐĂNG KÝ</string>
+    <string name="sign_up_fb">ĐĂNG KÝ VỚI FACEBOOK</string>
+    <string name="sign_up_google">ĐĂNG KÝ VỚI GOOGLE</string>
+    <string name="sign_up_phone">ĐĂNG KÝ VỚI SỐ ĐIỆN THOẠI</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="verification">Xác minh</string>
+    <string name="conformation_desc">Vui lòng xác nhận mã quốc gia của bạn và nhập số điện thoại của bạn</string>
+    <string name="confirm">Xác Nhận</string>
+    <string name="sms_desc">Chúng tôi đã gửi cho bạn mã truy cập qua tin nhắn để xác minh số điện thoại</string>
+    <string name="enter_code">Nhập mã vào đây</string>
+    <string name="history">Lịch sử</string>
+    <string name="load_more">Xem thêm </string>
+    <string name="deals">Ưu đãi</string>
+    <string name="account">Tài khoản</string>
+    <string name="restaurant">Nhà hàng</string>
+    <string name="order">Gọi món</string>
+    <string name="search_hint">Tìm kiếm</string>
+
+    <string name="FACEBOOK_APP_ID" translatable="false">661901024231579</string>
+    <string name="fb_login_protocol_scheme" translatable="false">----fb(Facebook id)---</string>
+
+    <string name="google_api_client_id">242195038118-3ps9tvkef4af718la2fbng4o08dn4ohe.apps.googleusercontent.com</string>
+    <string name="google_gmail_release">242195038118-3ps9tvkef4af718la2fbng4o08dn4ohe.apps.googleusercontent.com</string>
+
+    <string name="google_api_realsekey">AIzaSyBrsPuCTn9z39TFl-FYEyCDM02zvK4X394</string>
+    <string name="google_api_debug">AIzaSyBrsPuCTn9z39TFl-FYEyCDM02zvK4X394</string>
+    <string name="google_map_api_key">AIzaSyAQ3heOHwgT87BjKiybgn6rnKH_hfoTQzY</string>
+
+
+    <string name="default_notification_channel_id">channel-01</string>
+    <string name="page_1">Trang 1</string>
+    <string name="page_2">Trang 2</string>
+    <string name="page_3">Trang 3</string>
+    <string name="about">Đây là về Mô tả nhà hàng, Thay thế nó bằng bản gốc.</string>
+    <string name="payment_method">Chọn phương thức thanh toán</string>
+    <string name="select_payment_method">CHỌN PHƯƠNG THỨC THANH TOÁN</string>
+    <string name="add_payment_method">THÊM PHƯƠNG THỨC THANH TOÁN</string>
+    <string name="cash_on_delivery">Thanh toán khi giao hàng</string>
+    <string name="save">Lưu</string>
+    <string name="cancle">Hủy bỏ</string>
+    <string name="add_payment">Thêm phương thức thanh toán</string>
+    <string name="card_hint">Số thẻ</string>
+    <string name="select_delivery_address">Chọn địa chỉ giao hàng</string>
+    <string name="billing_address_hint">Địa chỉ thanh toán</string>
+    <string name="city_hint">Thành phố</string>
+    <string name="state_hint">Tỉnh</string>
+    <string name="zip_hint">Zip</string>
+    <string name="card_name_hint">Tên trên thẻ</string>
+    <string name="cvc_hint">CVV</string>
+    <string name="date_hint">Hiệu lực (09/21)</string>
+    <string name="add_new_address">Thêm địa chỉ mới</string>
+    <string name="add_address">Thêm địa chỉ giao hàng</string>
+    <string name="house_hint">Địa chỉ đường</string>
+    <string name="country_hint">Quốc gia</string>
+    <string name="add_loc">Thêm vị trí</string>
+    <string name="inst_hint">Hướng dẫn</string>
+    <string name="title_activity_maps">Bản đồ</string>
+
+
+    <string name="hello_ted">Xin chào Ted</string>
+    <string name="order_now">Đặt hàng ngay</string>
+    <string name="check_out">Đặt ngay</string>
+    <string name="show_restaurant">Hiển thị nhà hàng</string>
+    <string name="welcome_txt">Chào mừng bạn! Chúng ta nên giao hàng đến đâu?</string>
+    <string name="edit_account">Chỉnh sửa tài khoản</string>
+    <string name="recover_pass">Khôi phục mật khẩu</string>
+    <string name="recover">Khôi phục</string>
+    <string name="pending_jobs">CÔNG VIỆC GIAO DỊCH</string>
+    <string name="current_jobs">CÔNG VIỆC HIỆN TẠI</string>
+    <string name="job">Việc làm</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="today_job">Công việc hôm nay</string>
+    <string name="weekly_earning">Thu nhập hàng tuần</string>
+    <string name="schedule">Lịch trình</string>
+    <string name="change_pass">Đổi mật khẩu</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="help">Trợ giúp ứng dụng</string>
+    <string name="rider">Shipper</string>
+    <string name="availability">Khả dụng</string>
+    <string name="cancel">Hủy bỏ</string>
+
+    /// All Edit Text
+
+    <string name="email_hint"><font size="14">Ngon365@gmail.com</font></string>
+    <string name="password_hint"><font size="14">Ít nhất 6 ký tự</font></string>
+    <string name="f_name"><font size="14">Ngon365</font></string>
+    <string name="l_name"><font size="14">Smith</font></string>
+    <string name="login_with_fb">Đăng nhập Facebook</string>
+    <string name="login_with_google">Đăng nhập bằng google</string>
+    <string name="minimum_housr_str">Ca tối thiểu nên là hai giờ!</string>
+    <string name="location">Vị trí</string>
+    <string name="canada_lat_lomg">31.4904023 , 74.2906989</string>
+
+
+    <string name="notification_add_to_cart_button">Thích</string>
+    <string name="group_name">Nhóm 1</string>
+    <string name="notifications_admin_channel_name">Kênh toàn cầu</string>
+    <string name="notifications_admin_channel_description">Thông báo được gửi từ quản trị viên ứng dụng</string>
+
+
+    <string name="text_switch_heading">Chuyển nút Đăng ký để bắt đầu ca làm việc của bạn</string>
+    <string name="text_switch_btn">Nhân viên của chúng tôi sẽ thấy rằng bạn đã đăng ký hoặc trực tuyến, điều này sẽ giúp họ chỉ định cho bạn các đơn đặt hàng và giúp bạn kiếm thêm tiền</string>
+
+    <string name="text_switch_mobile">Bạn sẽ vẫn Online cho đến khi bạn Offline bằng cách nhấn chuyển nút bên dưới</string>
+    <string name="deal_content">Xin lỗi. Nhà hàng này không cung cấp bất kỳ đơn đặt hàng nào tại thời điểm này.</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+
+    <!--   <string name="admin_contact_number">+923102292129</string>-->
+    <string name="admin_contact_number">0936006058</string>
+
+    <string name="no_deal_text">Xin lỗi. Nhà hàng này không cung cấp bất kỳ đơn đặt hàng nào tại thời điểm này.</string>
+
+    <!--<string name="uan_txt">UAN (03 111 444 245)</string>
+    -->
+    <string name="uan_txt">Hotline (0246.254.1021)</string>
+
+    <!--<string name="uan">03111444245</string>
+       -->
+    <string name="uan">02462541021</string>
+
+    <string name="review">Xem xét</string>
+    <string name="add_rider_tip">Thêm tiền thưởng</string>
+    <string name="rider_tip">Tiền thưởng</string>
+    <string name="rest_not_open">Hiện tại nhà hàng chưa mở cửa.</string>
+    <string name="cash_on_momo">Thanh toán bằng momo</string>
+    <string name="payment_by_momo">Thanh toán bằng momo</string>
+    <string name="add_coupon_code">Nhập mã khuyến mãi</string>
+    <string name="delivery">Giao hàng</string>
+    <string name="buy_at_the_shop">Mua tại quầy</string>
+    <string name="momo_payment_process">Đang sử lý thanh toán bằng tài khoản Momo xin vui lòng đợi trong giây lát</string>
+    <string name="title_activity_momo">Momo</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">6239f43b10feea1d5666a20bad7e2b86</string>
+    <string name="ak_login_protocol_scheme">ak your Facebook App Id</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+</resources>
